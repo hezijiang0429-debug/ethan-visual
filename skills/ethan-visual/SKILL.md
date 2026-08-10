@@ -21,6 +21,10 @@ The human protagonist appears in every image. Use `assets/ethan-human-reference.
 
 The pose must make physical and visual sense for the scene. Turn shoulders, head, eyes, hands, and feet toward the relevant object: face the monitor when coding or designing UI; look at a book when reading; face the audience when presenting; orient toward a calendar when organizing a schedule. Do not show a person typing while looking away from the computer.
 
+## Scene-first composition
+
+Do not treat a desk or table as a default prop. Choose the environment from the user’s topic and the character’s action. A desk is appropriate for computer work, drawing, or paperwork, but omit it when it adds no meaning. Freely explore alternatives such as standing beside a wall calendar, walking with a camera, sitting on the floor with papers, presenting to an audience, reading on a bench, arranging floating UI panels, or working outdoors. The focal action and object should determine the pose, viewpoint, negative space, and supporting props—not a repeated desk setup. If the topic has no obvious physical setting, use a clean abstract field with a few meaningful visual cues.
+
 ## Optional cat
 
 The cat is supporting, not mandatory. If the user explicitly includes or excludes it, follow that instruction. Otherwise include it in roughly 70% of single illustrations and omit it in roughly 30%; for a batch, target about a 7:3 include/omit ratio. Scene fit can override the default when a cat would make the composition confusing.
@@ -40,7 +44,7 @@ Use the provided references as visual anchors, not as content to copy literally:
 
 ## Generation workflow
 
-1. Translate the user’s topic into one concrete action and one clear focal object.
+1. Translate the user’s topic into one concrete action, one clear focal object, and the most natural setting; explicitly decide whether a desk/table is useful or should be omitted.
 2. Decide cat presence using the explicit instruction or the 70/30 default.
 3. Write a structured image prompt naming the 1:1 canvas, 12% white safety margin, recurring protagonist, logical gaze/pose, palette, line treatment, optional cat, and 10–15% contextual accents.
 4. Generate with the built-in image tool and include the relevant local reference images. Do not ask for text unless requested.
@@ -49,7 +53,7 @@ Use the provided references as visual anchors, not as content to copy literally:
 
 ## Prompt skeleton
 
-“Create a 1:1 editorial illustration about [TOPIC]. Always include the recurring adult Ethan character from the attached human reference; he is [ACTION] and his head, eyes, shoulders, hands, and body logically face [FOCAL OBJECT]. Use small open almond-shaped eyes, black side-swept hair, white crewneck, black trousers, and white sneakers. [Include/omit] the optional golden-shaded British Shorthair from the cat reference. Use black hand-drawn outlines, white space, warm golden yellow and pale cream flat fills, restrained print texture, and a calm adult tone. Add only a few scene-specific accents totaling 10–15% of the canvas. No readable text, logos, watermark, gradients, photorealism, 3D, or exaggerated/cartoon proportions. Keep every element fully inside the canvas with at least 12% blank white margin on all sides; do not crop.”
+“Create a 1:1 editorial illustration about [TOPIC] in the most natural setting for the action; do not add a desk or table unless it serves the idea. Always include the recurring adult Ethan character from the attached human reference; he is [ACTION] and his head, eyes, shoulders, hands, and body logically face [FOCAL OBJECT]. Use small open almond-shaped eyes, black side-swept hair, white crewneck, black trousers, and white sneakers. [Include/omit] the optional golden-shaded British Shorthair from the cat reference. Use black hand-drawn outlines, white space, warm golden yellow and pale cream flat fills, restrained print texture, and a calm adult tone. Add only a few scene-specific accents totaling 10–15% of the canvas. No readable text, logos, watermark, gradients, photorealism, 3D, or exaggerated/cartoon proportions. Keep every element fully inside the canvas with at least 12% blank white margin on all sides; do not crop.”
 
 ## Final check
 
