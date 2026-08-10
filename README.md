@@ -1,57 +1,57 @@
 <p align="center">
-  <img src="./assets/readme/hero-v3.png" width="100%" alt="Ethan Visual: Ethan working at a computer with a golden-shaded cat" />
+  <img src="./assets/readme/hero-v3.png" width="100%" alt="Ethan Visual：人物在电脑前工作，旁边有一只金渐层小猫" />
 </p>
 
 <p align="center">
-  <strong>A focused Codex skill for calm, text-oriented editorial illustrations.</strong><br />
-  One recurring protagonist. Logical scene poses. A golden-shaded cat when it belongs.
+  <strong>一个专注于文字类配图的轻松、克制型 Codex 插画 Skill。</strong><br />
+  固定的核心人物 · 符合场景逻辑的姿势 · 适时出现的金渐层小猫
 </p>
 
-## What it is
+## 这是什么
 
-`ethan-visual` turns a short topic—such as “design a UI interface” or “organize a schedule”—into an original square illustration. The visual language stays intentionally restrained: black hand-drawn lines, white space, warm gold accents, and a small amount of contextual detail.
+`ethan-visual` 可以把“设计 UI 界面”“整理日程表”等简短主题，转化为原创的方形插画。整体视觉保持克制：黑色手绘线条、留白、暖金色点缀，以及少量符合场景的细节。
 
-## See the visual system
+## 视觉体系预览
 
-These are real reference outputs bundled with the Skill, not generic stock decoration.
+以下是 Skill 中实际收录的参考产出，不是泛用的装饰素材。
 
 <p align="center">
-  <img src="./skills/ethan-visual/assets/ethan-human-reference.png" width="24%" alt="Ethan character facing a computer" />
-  <img src="./skills/ethan-visual/assets/ethan-cat-reference.png" width="24%" alt="Ethan with a golden-shaded British Shorthair cat" />
-  <img src="./skills/ethan-visual/assets/ethan-open-eye-reference.png" width="24%" alt="Ethan and cat with open-eye treatment" />
-  <img src="./skills/ethan-visual/assets/ethan-accent-sample.png" width="24%" alt="Ethan coding with small contextual accents" />
+  <img src="./skills/ethan-visual/assets/ethan-human-reference.png" width="24%" alt="人物面向电脑的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-cat-reference.png" width="24%" alt="人物与金渐层英国短毛猫的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-open-eye-reference.png" width="24%" alt="人物和小猫睁眼状态的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-accent-sample.png" width="24%" alt="人物编写代码并带有少量场景点缀的参考图" />
 </p>
 
-## Install
+## 安装
 
-Copy the Skill directory into your Codex skills folder:
+将 Skill 目录复制到 Codex 的 skills 文件夹：
 
 ```bash
 mkdir -p "$CODEX_HOME/skills"
 cp -R skills/ethan-visual "$CODEX_HOME/skills/ethan-visual"
 ```
 
-Restart or start a new Codex task after installation so the Skill is available.
+安装完成后，重新启动 Codex 或新建一个任务，Skill 就会生效。
 
-## Use it
+## 使用方法
 
-Invoke it explicitly, or let the topic trigger it:
+可以显式调用，也可以让主题自动触发：
 
 ```text
-Use $ethan-visual to create a 1:1 illustration about designing a UI interface.
+使用 $ethan-visual，生成一张“设计 UI 界面”的 1:1 插画。
 ```
 
-The Skill keeps the human protagonist in every image, orients the body and gaze toward the relevant object, and maintains a 12% blank white safety margin so artwork is not clipped. The cat is optional by design: it appears in roughly 70% of single illustrations by default and can be explicitly included or omitted.
+Skill 会让核心人物出现在每张图中，并让人物的身体和视线朝向场景中的相关对象，同时保留四周至少 12% 的纯白安全边距，避免画面被裁切。小猫是可选元素：默认约有 70% 的单张插画包含小猫，也可以根据指令明确要求出现或不出现。
 
-## Visual rules
+## 视觉规则
 
-- Adult, calm, lightly humorous editorial line art; never photorealistic, 3D, neon, glossy, or chibi.
-- Black outlines with white, pale cream, and warm golden fills; limited analog/print texture.
-- Square `1:1` output with no readable text by default.
-- Small contextual accents occupy about 10–15% of the canvas and remain subordinate to the protagonist.
-- All elements stay inside the canvas with at least 12% blank white margin on every side.
+- 成年、平静、带一点轻松感的编辑式线稿；避免写实、3D、霓虹、光泽效果和 Q 版比例。
+- 黑色轮廓搭配白色、浅奶油色和暖金色填充，仅保留有限的模拟印刷纹理。
+- 默认输出方形 `1:1` 图片，画面中不添加可读文字。
+- 场景点缀元素约占画布的 10–15%，并始终服务于核心人物。
+- 所有元素都留在画布内部，四周至少保留 12% 的纯白安全边距。
 
-## Repository layout
+## 仓库结构
 
 ```text
 skills/ethan-visual/
@@ -64,4 +64,4 @@ skills/ethan-visual/
     └── ethan-accent-sample.png
 ```
 
-The detailed generation workflow and prompt skeleton live in [`skills/ethan-visual/SKILL.md`](./skills/ethan-visual/SKILL.md).
+详细的生成流程和提示词模板请参阅 [`skills/ethan-visual/SKILL.md`](./skills/ethan-visual/SKILL.md)。
