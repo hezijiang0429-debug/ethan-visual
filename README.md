@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Ethan Visual: editorial illustrations for ideas, articles, and workflows" />
+  <img src="./assets/readme/hero-v3.png" width="100%" alt="Ethan Visual: Ethan working at a computer with a golden-shaded cat" />
 </p>
 
 <p align="center">
