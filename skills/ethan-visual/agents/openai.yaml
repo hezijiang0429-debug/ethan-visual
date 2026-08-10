@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ethan Visual"
+  short_description: "Restrained editorial illustrations with a recurring character"
+  default_prompt: "Use $ethan-visual to create a 1:1 editorial illustration with the recurring character, logical pose, safe margins, and restrained palette."
