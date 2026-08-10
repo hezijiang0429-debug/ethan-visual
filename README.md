@@ -20,6 +20,9 @@
   <img src="./skills/ethan-visual/assets/ethan-cat-reference.png" width="24%" alt="人物与金渐层英国短毛猫的参考图" />
   <img src="./skills/ethan-visual/assets/ethan-open-eye-reference.png" width="24%" alt="人物和小猫睁眼状态的参考图" />
   <img src="./skills/ethan-visual/assets/ethan-accent-sample.png" width="24%" alt="人物编写代码并带有少量场景点缀的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-concept-mapping-reference.png" width="24%" alt="人物整理概念关系和视觉线索的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-design-process-reference.png" width="24%" alt="人物将多个设计素材整理成界面的参考图" />
+  <img src="./skills/ethan-visual/assets/ethan-review-correction-reference.png" width="24%" alt="人物检查清单并进行修正的参考图" />
 </p>
 
 ## 安装
@@ -61,7 +64,10 @@ skills/ethan-visual/
     ├── ethan-human-reference.png
     ├── ethan-cat-reference.png
     ├── ethan-open-eye-reference.png
-    └── ethan-accent-sample.png
+    ├── ethan-accent-sample.png
+    ├── ethan-concept-mapping-reference.png
+    ├── ethan-design-process-reference.png
+    └── ethan-review-correction-reference.png
 ```
 
 详细的生成流程和提示词模板请参阅 [`skills/ethan-visual/SKILL.md`](./skills/ethan-visual/SKILL.md)。
